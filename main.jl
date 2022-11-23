@@ -458,7 +458,7 @@ serr(x) = std(x)/sqrt(length(x))
 # Plotting function
 function plot_power_res(i, j)
     titles = [L"\hat{b}", L"\hat{g}", L"\hat{a}"]
-    xlabels = [L"\rm{b}", L"\rm{d}g", L"\rm{d}a"]
+    xlabels = [L"\delta b", L"\delta g", L"\delta a"]
     xvars = [:db, :dg, :da]; xvar = xvars[i]
     series_mean = [:b_sig_mean, :g_sig_mean, :a_sig_mean]
     series_se = [:b_sig_serr, :g_sig_serr, :a_sig_serr]
