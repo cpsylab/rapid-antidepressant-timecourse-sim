@@ -10,4 +10,19 @@ Assuming you have 16 threads. This can be changed.
 julia --nthreads 16 main.jl
 ```
 
+The following packages are required: 
+- `Plots`
+- `Pipe`
+- `DataFrames`
+- `MixedModels`
+- `LaTeXStrings`
+- `StatsBase`
+- `CategoricalArrays`
+- `CSV`
+- `JLD`
+- `Distributions`
+- `StableRNGs`
+- `LambertW`
+- `Optim`
+
  
